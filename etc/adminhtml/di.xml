@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author     Sam James <sam@samdjames.uk>
+ * @package    SamJUK_TinyMCE
+ * @copyright  Copyright (c) 2024 Sam James (https://www.samdjames.uk)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Cms\Model\Wysiwyg\DefaultConfigProvider">
+        <plugin name="SamJUK_TinyMCE__CMS_DefaultConfigProvider"
+                type="SamJUK\TinyMCE\Plugin\DefaultConfigProvider" sortOrder="1" />
+    </type>
+
+    <type name="Magento\PageBuilder\Model\Wysiwyg\DefaultConfigProvider">
+        <plugin name="SamJUK_TinyMCE__PageBuilder_DefaultConfigProvider"
+                type="SamJUK\TinyMCE\Plugin\DefaultConfigProvider" sortOrder="1" />
+    </type>
+</config>

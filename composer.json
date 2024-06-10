@@ -1,0 +1,25 @@
+{
+    "name": "samjuk/m2-module-tinymce-anchors",
+    "description": "Introduce the Anchor plugin into the TinyMCE editor to allow for easy linking to text content.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+      "php": "^5.0|^7.0|^8.0"
+    },
+    "authors": [
+        {
+            "email": "sam@samdjames.uk",
+            "name": "Sam James",
+            "homepage": "https://www.samdjames.uk"
+        }
+    ],
+    "license": [
+      "GPL-3.0-or-later"
+    ],
+    "autoload": {
+      "files": ["registration.php"],
+      "psr-4": {
+        "SamJUK\\TinyMCE\\": ""
+      }
+    }
+}
