@@ -4,7 +4,7 @@
     "type": "magento2-module",
     "version": "1.0.0",
     "require": {
-      "php": "^5.0|^7.0|^8.0"
+        "php": "^5.0|^7.0|^8.0"
     },
     "authors": [
         {
@@ -14,12 +14,29 @@
         }
     ],
     "license": [
-      "GPL-3.0-or-later"
+        "GPL-3.0-or-later"
     ],
     "autoload": {
-      "files": ["registration.php"],
-      "psr-4": {
-        "SamJUK\\TinyMCE\\": ""
-      }
-    }
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SamJUK\\TinyMCE\\": ""
+        }
+    },
+    "homepage": "https://github.com/SamJUK/m2-module-tinymce-anchors",
+    "keywords": [
+        "magento2",
+        "magento 2",
+        "magento2-module",
+        "adobe-commerce",
+        "extension",
+        "tinymce",
+        "page-builder",
+        "cms",
+        "wysiwyg",
+        "anchor-links",
+        "content-editing",
+        "open-source"
+    ]
 }
