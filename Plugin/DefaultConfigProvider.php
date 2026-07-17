@@ -14,7 +14,7 @@ class DefaultConfigProvider
 {
 
     public function afterGetConfig(
-        ConfigProviderInterface $subject, 
+        ConfigProviderInterface $subject,
         DataObject $config
     ) : DataObject {
         $tinyConfig = $config->getData('tinymce4');
@@ -23,5 +23,4 @@ class DefaultConfigProvider
         $config->setData('tinymce4', $tinyConfig);
         return $config;
     }
-
 }

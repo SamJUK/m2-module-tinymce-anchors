@@ -6,4 +6,5 @@
  */
 
 use Magento\Framework\Component\ComponentRegistrar as CR;
+
 CR::register(CR::MODULE, 'SamJUK_TinyMCE', __DIR__);
