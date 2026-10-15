@@ -13,9 +13,7 @@
             "homepage": "https://www.samdjames.uk"
         }
     ],
-    "license": [
-        "GPL-3.0-or-later"
-    ],
+    "license": "MIT",
     "autoload": {
         "files": [
             "registration.php"
