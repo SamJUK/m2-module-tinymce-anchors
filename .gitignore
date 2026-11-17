@@ -1,3 +1,6 @@
 .vs_code/
 .idea/
 .DS_Store
+/vendor/
+/composer.lock
+/var/
