@@ -9,7 +9,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="SamJUK_TinyMCE" setup_version="1.0.0">
         <sequence>
-            <module name="Magento_Pagebuilder" />
+            <module name="Magento_Backend" />
+            <module name="Magento_PageBuilder" />
             <module name="Magento_Cms" />
         </sequence>
     </module>
